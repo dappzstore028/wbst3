@@ -1,0 +1,214 @@
+/* Styling untuk elemen body */
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    color: #333;
+}
+
+/* Styling untuk header */
+#boy {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+#boy h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Styling untuk navigasi */
+.navigation {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: navy;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    color: #0056b3;
+}
+
+/* Styling untuk div konten */
+.content {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+    background-color: #f4f4f9;
+}
+
+.bio {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+.bio h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.bio h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em; 
+}
+.bio p {
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.achievement {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.achievement h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: black;
+}
+
+.achievement img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.email {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.tombol {
+    display: flex;
+    justify-content: center; /* Memusatkan tombol secara horizontal */
+    align-items: center;    /* Memusatkan tombol secara vertikal jika parent ada tinggi */
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #007bff; /* Warna dasar biru */
+    color: white; /* Warna teks */
+    border: none;
+    border-radius: 25px; /* Membulatkan tombol */
+    padding: 15px 30px; /* Ukuran tombol */
+    font-size: 1.2em; /* Ukuran teks */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Efek transisi */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Warna saat hover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+    transform: scale(1.1); /* Sedikit memperbesar tombol */
+}
+
+.btn:active {
+    transform: scale(1); /* Mengembalikan skala saat diklik */
+}
+
+.WA {
+    background-color: #007bff; /* Warna dasar biru */
+    color: white; /* Warna teks */
+    border: none;
+    border-radius: 25px; /* Membulatkan tombol */
+    padding: 15px 30px; /* Ukuran tombol */
+    font-size: 1.2em; /* Ukuran teks */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Efek transisi */
+}
+
+.WA:hover {
+    background-color: #0056b3; /* Warna saat hover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+    transform: scale(1.1); /* Sedikit memperbesar tombol */
+}
+
+.WA:active {
+    .btn:active 
+        transform: scale(1); /* Mengembalikan skala saat diklik */
+}
+
+.IG {
+    background-color: #007bff; /* Warna dasar biru */
+    color: white; /* Warna teks */
+    border: none;
+    border-radius: 25px; /* Membulatkan tombol */
+    padding: 15px 30px; /* Ukuran tombol */
+    font-size: 1.2em; /* Ukuran teks */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Efek transisi */
+}
+
+.IG:hover {
+    background-color: #0056b3; /* Warna saat hover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+    transform: scale(1.1); /* Sedikit memperbesar tombol */
+}
+
+.IG:active {
+    .btn:active 
+        transform: scale(1); /* Mengembalikan skala saat diklik */
+}
+
+.TT {
+    background-color: #007bff; /* Warna dasar biru */
+    color: white; /* Warna teks */
+    border: none;
+    border-radius: 25px; /* Membulatkan tombol */
+    padding: 15px 30px; /* Ukuran tombol */
+    font-size: 1.2em; /* Ukuran teks */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Efek transisi */
+}
+
+.TT:hover {
+    background-color: #0056b3; /* Warna saat hover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+    transform: scale(1.1); /* Sedikit memperbesar tombol */
+}
+
+.TT:active {
+    .btn:active {
+        transform: scale(1); /* Mengembalikan skala saat diklik */
+}
